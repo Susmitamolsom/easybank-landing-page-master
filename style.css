@@ -98,8 +98,6 @@ a{
     justify-content: space-around;
     width: 500px;
     /* border: 2px solid red; */
-    /* margin-left: 100px; */
-    /* justify-content: center; */
 }
 
 .image{
@@ -137,10 +135,7 @@ a{
 .boxes{
     display: flex;
     justify-content: space-around;
-    /* padding-left: 100px; */
     padding-top: 40px;
-    /* width: 900px;
-    height: 300px; */
     /* border: 3px solid black; */
 
 }
