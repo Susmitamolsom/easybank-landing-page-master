@@ -12,7 +12,14 @@
 
 *{
     font-family: 'Public Sans', sans-serif;
+    /* margin: 0;
+    padding: 0; */
+    /* overflow: hidden; */
+}
 
+nav{
+    border: 2px solid blue;
+    max-width: 100%;
 }
 
 .heading{
@@ -62,7 +69,7 @@ a{
 
 .next-gn{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     height: 500px;
     /* border: 2px solid chocolate; */
@@ -72,10 +79,8 @@ a{
 .second-heading{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 300px;
     height: 200px;
-    padding-left: 100px;
     padding-top: 100px;
     /* border: 2px solid black; */
 }
@@ -91,30 +96,34 @@ a{
 
 .para{
     /* border: 1px solid red; */
-    width: 400px;
+    width: 370px;
 }
 .intro{
-    display: inline-flex;
-    justify-content: space-around;
-    width: 500px;
-    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    align-items: center;
+    /* margin-right: 200px; */
+    /* padding-right: 200px; */
+    /* border: 10px solid black; */
 }
+
 
 .image{
-    padding-right: 310px;
+    padding-left: 125px;
 }
 
-.image img{
+.bg-intro{
     position: relative;
-    width: 790px; 
-    bottom: 100px;
-    margin-left: 290px;
-    /* border: 2px solid red; */
+    width: 800px; 
+    height: 600px;
+    bottom: 40px;
+    /* border: 4px solid red; */
     clip-path:inset(20% 16% 0% 0%)
 }
 
 .phone{
-    margin-left: 144px;
+    margin-left: 336px;
     position: absolute;
 }
 
@@ -122,7 +131,7 @@ a{
     position: relative;
     width: 550px;
     height: 700px;
-    bottom: 62px;
+    top: 39px;
     clip-path:inset(13% 16% 0% 0%)
 }
 
